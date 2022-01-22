@@ -21,7 +21,7 @@ def get_data(config_path):
     df = pd.read_csv(data_path, sep=",", encoding='utf-8')
     return df
 
-
+# main
 if __name__=='__main__':
     args = argparse.ArgumentParser()
     args.add_argument("--config", default="params.yaml")
