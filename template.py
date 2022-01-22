@@ -5,7 +5,8 @@ dirs = [
     os.path.join('data', 'processed'),
     'notebooks',
     'saved_models',
-    'src'
+    'src',
+    'reports'
 ]
 
 
@@ -18,6 +19,7 @@ files = [
     'dvc.yaml',
     'params.yaml',
     '.gitignore',
+    'requirements.txt',    
     os.path.join('src', '__init__.py')
 ]
 
